@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/client-for-vantage/commit/b49c0d130528b669bbf7e11e37b126b2a2e1017a",
       "git:hexsha": "b49c0d130528b669bbf7e11e37b126b2a2e1017a",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-01T08:06:35.378064+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/client-for-vantage/commit/a048cf08808adbe142d26c5c681e4528746e00b4",
