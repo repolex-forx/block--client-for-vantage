@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/client-for-vantage/commit/b49c0d130528b669bbf7e11e37b126b2a2e1017a",
       "git:hexsha": "b49c0d130528b669bbf7e11e37b126b2a2e1017a",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     },
     {
