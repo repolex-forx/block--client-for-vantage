@@ -42,10 +42,42 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b49c0d130528b669bbf7e11e37b126b2a2e1017a/chunk-001.nq.gz",
       "repolex:graphFileSize": 6845838
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b49c0d130528b669bbf7e11e37b126b2a2e1017a.nq.gz",
+      "repolex:graphFileSize": 1300698
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-01T08:00:29.534798+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic",
+      "repolex:packageName": "pydantic",
+      "git:hexsha": "df05e69a8a3fb37628a0e3a33518ca0425334bc9",
+      "git:tagName": "v2.10.6"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic-settings",
+      "repolex:packageName": "pydantic-settings",
+      "git:hexsha": "c989335d268c81026a99e3370907e0d311cceec2",
+      "git:tagName": "v2.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pydantic/pydantic-extra-types",
+      "repolex:packageName": "pydantic-extra-types",
+      "git:hexsha": "b7ddcfaa292adb217aaa59583278dbfb57cbe5a6",
+      "git:tagName": "v2.10.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/encode/httpx",
+      "repolex:packageName": "httpx",
+      "git:hexsha": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+      "git:tagName": "0.28.1"
+    }
+  ]
 }

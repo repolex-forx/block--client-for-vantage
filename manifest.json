@@ -512,6 +512,53 @@
       ],
       "ast": [
         "aggregate/ast/b49c0d130528b669bbf7e11e37b126b2a2e1017a/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b49c0d130528b669bbf7e11e37b126b2a2e1017a.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "2.10.6",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubCommit": "df05e69a8a3fb37628a0e3a33518ca0425334bc9",
+          "githubTag": "v2.10.6",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic-settings",
+          "ecosystem": "PYPI",
+          "version": "2.7.1",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic-settings",
+          "githubCommit": "c989335d268c81026a99e3370907e0d311cceec2",
+          "githubTag": "v2.7.1",
+          "githubUrl": "https://github.com/pydantic/pydantic-settings",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic-extra-types",
+          "ecosystem": "PYPI",
+          "version": "2.10.2",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic-extra-types",
+          "githubCommit": "b7ddcfaa292adb217aaa59583278dbfb57cbe5a6",
+          "githubTag": "v2.10.2",
+          "githubUrl": "https://github.com/pydantic/pydantic-extra-types",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "httpx",
+          "ecosystem": "PYPI",
+          "version": "0.28.1",
+          "githubOrg": "encode",
+          "githubRepo": "httpx",
+          "githubCommit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+          "githubTag": "0.28.1",
+          "githubUrl": "https://github.com/encode/httpx",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
